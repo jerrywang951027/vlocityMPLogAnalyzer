@@ -4,843 +4,483 @@ LOG PARSING EXCEPTIONS
 
 Exception #1:
   Description: Missing closing line (METHOD_EXIT)
-  Method: vlocity_cmt.Logger.Logger()
+  Method: vlocity_cmt.PlatformGeneralSettingsUtilities.PlatformGeneralSettingsUtilities()
   Level: 1
-  Timestamp: 7.49ms
-  Example: 08:58:28.2 (7493704)|METHOD_ENTRY|[1]|01p5j00000Js64s|vlocity_cmt.Logger.Logger()
+  Timestamp: 40.59ms
+  Example: 14:04:03.0 (40592803)|METHOD_ENTRY|[1]|01p5j00000Js6Cf|vlocity_cmt.PlatformGeneralSettingsUtilities.PlatformGeneralSetti
   Solution: Removed from tree, children reparented to nearest closed ancestor or root
 
 Exception #2:
   Description: Missing closing line (METHOD_EXIT)
-  Method: vlocity_cmt.PlatformGeneralSettingsUtilities.PlatformGeneralSettingsUtilities()
+  Method: vlocity_cmt.PlatformGeneralSettingsUtilitiesAux.PlatformGeneralSettingsUtilitiesAux()
   Level: 1
-  Timestamp: 8.76ms
-  Example: 08:58:28.2 (8764019)|METHOD_ENTRY|[1]|01p5j00000Js6Cf|vlocity_cmt.PlatformGeneralSettingsUtilities.PlatformGeneralSettin
+  Timestamp: 46.69ms
+  Example: 14:04:03.0 (46689988)|METHOD_ENTRY|[1]|01p5j00000Js6Cg|vlocity_cmt.PlatformGeneralSettingsUtilitiesAux.PlatformGeneralSe
   Solution: Removed from tree, children reparented to nearest closed ancestor or root
 
 Exception #3:
   Description: Missing closing line (METHOD_EXIT)
-  Method: vlocity_cmt.PlatformGeneralSettingsUtilitiesAux.PlatformGeneralSettingsUtilitiesAux()
+  Method: vlocity_cmt.IsFoundationPkg.IsFoundationPkg()
   Level: 1
-  Timestamp: 13.59ms
-  Example: 08:58:28.2 (13591557)|METHOD_ENTRY|[1]|01p5j00000Js6Cg|vlocity_cmt.PlatformGeneralSettingsUtilitiesAux.PlatformGeneralSe
+  Timestamp: 48.18ms
+  Example: 14:04:03.0 (48182678)|METHOD_ENTRY|[1]|01p5j00000Js63b|vlocity_cmt.IsFoundationPkg.IsFoundationPkg()
   Solution: Removed from tree, children reparented to nearest closed ancestor or root
 
 Exception #4:
   Description: Missing closing line (METHOD_EXIT)
-  Method: vlocity_cmt.IsFoundationPkg.IsFoundationPkg()
+  Method: vlocity_cmt.Logger.Logger()
   Level: 1
-  Timestamp: 15.08ms
-  Example: 08:58:28.2 (15078106)|METHOD_ENTRY|[1]|01p5j00000Js63b|vlocity_cmt.IsFoundationPkg.IsFoundationPkg()
+  Timestamp: 68.57ms
+  Example: 14:04:03.0 (68573315)|METHOD_ENTRY|[1]|01p5j00000Js64s|vlocity_cmt.Logger.Logger()
   Solution: Removed from tree, children reparented to nearest closed ancestor or root
 
 Exception #5:
   Description: Missing closing line (METHOD_EXIT)
-  Method: vlocity_cmt.APICpqUtilities.APICpqUtilities()
+  Method: vlocity_cmt.IntegrationProcedureService.IntegrationProcedureService()
   Level: 1
-  Timestamp: 37.21ms
-  Example: 08:58:28.2 (37211003)|METHOD_ENTRY|[1]|01p5j00000Js5Vr|vlocity_cmt.APICpqUtilities.APICpqUtilities()
+  Timestamp: 97.34ms
+  Example: 14:04:03.0 (97340367)|METHOD_ENTRY|[1]|01p5j00000Js637|vlocity_cmt.IntegrationProcedureService.IntegrationProcedureServi
   Solution: Removed from tree, children reparented to nearest closed ancestor or root
 
 Exception #6:
   Description: Missing closing line (METHOD_EXIT)
-  Method: vlocity_cmt.CMEInstrumentationLogger.CMEInstrumentationLogger()
+  Method: vlocity_cmt.ApplicationUtilities.ApplicationUtilities()
   Level: 1
-  Timestamp: 45.15ms
-  Example: 08:58:28.2 (45146391)|METHOD_ENTRY|[1]|01p5j00000Lfuty|vlocity_cmt.CMEInstrumentationLogger.CMEInstrumentationLogger()
+  Timestamp: 727.98ms
+  Example: 14:04:03.0 (727976154)|METHOD_ENTRY|[1]|01p5j00000Js5YT|vlocity_cmt.ApplicationUtilities.ApplicationUtilities()
   Solution: Removed from tree, children reparented to nearest closed ancestor or root
 
 Exception #7:
   Description: Missing closing line (METHOD_EXIT)
-  Method: vlocity_cmt.CMEInstrumentationLoggerBaseAbstract.CMEInstrumentationLoggerBaseAbstract()
+  Method: vlocity_cmt.FlowStaticMap.FlowStaticMap()
   Level: 1
-  Timestamp: 45.30ms
-  Example: 08:58:28.2 (45304017)|METHOD_ENTRY|[1]|01p5j00000Lfutz|vlocity_cmt.CMEInstrumentationLoggerBaseAbstract.CMEInstrumentati
+  Timestamp: 741.26ms
+  Example: 14:04:03.0 (741263386)|METHOD_ENTRY|[1]|01p5j00000Js60V|vlocity_cmt.FlowStaticMap.FlowStaticMap()
   Solution: Removed from tree, children reparented to nearest closed ancestor or root
 
 Exception #8:
   Description: Missing closing line (METHOD_EXIT)
-  Method: vlocity_cmt.CustomSettingsUtilities.CustomSettingsUtilities()
+  Method: vlocity_cmt.DefaultPricebookDefaultImplementation.DefaultPricebookDefaultImplementation()
   Level: 1
-  Timestamp: 45.59ms
-  Example: 08:58:28.2 (45587935)|METHOD_ENTRY|[1]|01p5j00000Js5mL|vlocity_cmt.CustomSettingsUtilities.CustomSettingsUtilities()
+  Timestamp: 747.66ms
+  Example: 14:04:03.0 (747655599)|METHOD_ENTRY|[1]|01p5j00000Js5tF|vlocity_cmt.DefaultPricebookDefaultImplementation.DefaultPricebo
   Solution: Removed from tree, children reparented to nearest closed ancestor or root
 
 Exception #9:
   Description: Missing closing line (METHOD_EXIT)
-  Method: vlocity_cmt.ApplicationUtilities.ApplicationUtilities()
+  Method: vlocity_cmt.CacheManager.CacheManager()
   Level: 1
-  Timestamp: 58.07ms
-  Example: 08:58:28.2 (58071619)|METHOD_ENTRY|[1]|01p5j00000Js5YT|vlocity_cmt.ApplicationUtilities.ApplicationUtilities()
+  Timestamp: 748.18ms
+  Example: 14:04:03.0 (748179365)|METHOD_ENTRY|[1]|01p5j00000Js5cd|vlocity_cmt.CacheManager.CacheManager()
   Solution: Removed from tree, children reparented to nearest closed ancestor or root
 
 Exception #10:
   Description: Missing closing line (METHOD_EXIT)
-  Method: vlocity_cmt.EncryptionService.EncryptionService()
+  Method: vlocity_cmt.CacheStoreWrapper.CacheStoreWrapper()
   Level: 1
-  Timestamp: 97.08ms
-  Example: 08:58:28.2 (97082492)|METHOD_ENTRY|[1]|01p5j00000Js5z5|vlocity_cmt.EncryptionService.EncryptionService()
+  Timestamp: 750.90ms
+  Example: 14:04:03.0 (750895842)|METHOD_ENTRY|[1]|01p5j00000Js5ci|vlocity_cmt.CacheStoreWrapper.CacheStoreWrapper()
   Solution: Removed from tree, children reparented to nearest closed ancestor or root
 
 Exception #11:
   Description: Missing closing line (METHOD_EXIT)
-  Method: vlocity_cmt.DCConfigurations.DCConfigurations()
+  Method: QuoteTriggerHandler.QuoteTriggerHandler()
   Level: 1
-  Timestamp: 116.88ms
-  Example: 08:58:28.2 (116879730)|METHOD_ENTRY|[1]|01p5j00000Js5mZ|vlocity_cmt.DCConfigurations.DCConfigurations()
+  Timestamp: 820.37ms
+  Example: 14:04:03.818 (820369923)|METHOD_ENTRY|[1]|01pNq0000017mtP|QuoteTriggerHandler.QuoteTriggerHandler()
   Solution: Removed from tree, children reparented to nearest closed ancestor or root
 
 Exception #12:
   Description: Missing closing line (METHOD_EXIT)
-  Method: vlocity_cmt.UserSecurity.UserSecurity()
+  Method: TriggerHandlerBase.TriggerHandlerBase()
   Level: 1
-  Timestamp: 142.16ms
-  Example: 08:58:28.2 (142159466)|METHOD_ENTRY|[1]|01p5j00000Js6P6|vlocity_cmt.UserSecurity.UserSecurity()
+  Timestamp: 821.44ms
+  Example: 14:04:03.818 (821444201)|METHOD_ENTRY|[1]|01pNq0000017mtc|TriggerHandlerBase.TriggerHandlerBase()
   Solution: Removed from tree, children reparented to nearest closed ancestor or root
 
 Exception #13:
   Description: Missing closing line (METHOD_EXIT)
-  Method: V8_QuoteLineItemDataService.V8_QuoteLineItemDataService()
+  Method: TriggerFramework.TriggerFramework()
   Level: 1
-  Timestamp: 308.67ms
-  Example: 08:58:28.2 (308671456)|METHOD_ENTRY|[1]|01pU9000001i8Ym|V8_QuoteLineItemDataService.V8_QuoteLineItemDataService()
+  Timestamp: 822.74ms
+  Example: 14:04:03.818 (822742309)|METHOD_ENTRY|[1]|01pNq0000017mtb|TriggerFramework.TriggerFramework()
   Solution: Removed from tree, children reparented to nearest closed ancestor or root
 
 Exception #14:
   Description: Missing closing line (METHOD_EXIT)
-  Method: V8_AssetDataService.V8_AssetDataService()
+  Method: vlocity_cmt.EncryptionService.EncryptionService()
   Level: 1
-  Timestamp: 495.27ms
-  Example: 08:58:28.2 (495272053)|METHOD_ENTRY|[1]|01pU9000002gBPK|V8_AssetDataService.V8_AssetDataService()
+  Timestamp: 989.81ms
+  Example: 14:04:03.0 (989808908)|METHOD_ENTRY|[1]|01p5j00000Js5z5|vlocity_cmt.EncryptionService.EncryptionService()
   Solution: Removed from tree, children reparented to nearest closed ancestor or root
 
 Exception #15:
   Description: Missing closing line (METHOD_EXIT)
-  Method: vlocity_cmt.TelcoQuote on Quote trigger event BeforeUpdate|__sfdc_trigger/vlocity_cmt/TelcoQuote
+  Method: vlocity_cmt.DCConfigurations.DCConfigurations()
   Level: 1
-  Timestamp: 592.87ms
-  Example: 08:58:28.2 (592869343)|CODE_UNIT_STARTED|[EXTERNAL]|01q5j000000twpk|vlocity_cmt.TelcoQuote on Quote trigger event Before
+  Timestamp: 1001.24ms
+  Example: 14:04:04.1 (1001238254)|METHOD_ENTRY|[1]|01p5j00000Js5mZ|vlocity_cmt.DCConfigurations.DCConfigurations()
   Solution: Removed from tree, children reparented to nearest closed ancestor or root
 
 Exception #16:
   Description: Missing closing line (METHOD_EXIT)
-  Method: vlocity_cmt.FlowStaticMap.FlowStaticMap()
+  Method: vlocity_cmt.CMEInstrumentationLogger.CMEInstrumentationLogger()
   Level: 1
-  Timestamp: 610.17ms
-  Example: 08:58:28.2 (610173046)|METHOD_ENTRY|[1]|01p5j00000Js60V|vlocity_cmt.FlowStaticMap.FlowStaticMap()
+  Timestamp: 1022.95ms
+  Example: 14:04:04.1 (1022951129)|METHOD_ENTRY|[1]|01p5j00000Lfuty|vlocity_cmt.CMEInstrumentationLogger.CMEInstrumentationLogger()
   Solution: Removed from tree, children reparented to nearest closed ancestor or root
 
 Exception #17:
   Description: Missing closing line (METHOD_EXIT)
-  Method: vlocity_cmt.DefaultPricebookDefaultImplementation.DefaultPricebookDefaultImplementation()
+  Method: vlocity_cmt.PricingVariableBindingService.PricingVariableBindingService()
   Level: 1
-  Timestamp: 623.23ms
-  Example: 08:58:28.2 (623231891)|METHOD_ENTRY|[1]|01p5j00000Js5tF|vlocity_cmt.DefaultPricebookDefaultImplementation.DefaultPricebo
+  Timestamp: 1271.08ms
+  Example: 14:04:04.1 (1271079632)|METHOD_ENTRY|[1]|01p5j00000Js6Ep|vlocity_cmt.PricingVariableBindingService.PricingVariableBindin
   Solution: Removed from tree, children reparented to nearest closed ancestor or root
 
 Exception #18:
   Description: Missing closing line (METHOD_EXIT)
-  Method: vlocity_cmt.CacheManager.CacheManager()
+  Method: vlocity_cmt.PricingPlanService.PricingPlanService()
   Level: 1
-  Timestamp: 628.42ms
-  Example: 08:58:28.2 (628416075)|METHOD_ENTRY|[1]|01p5j00000Js5cd|vlocity_cmt.CacheManager.CacheManager()
+  Timestamp: 1285.90ms
+  Example: 14:04:04.1 (1285896074)|METHOD_ENTRY|[1]|01p5j00000Js6EN|vlocity_cmt.PricingPlanService.PricingPlanService()
   Solution: Removed from tree, children reparented to nearest closed ancestor or root
 
 Exception #19:
   Description: Missing closing line (METHOD_EXIT)
-  Method: vlocity_cmt.CacheStoreWrapper.CacheStoreWrapper()
+  Method: vlocity_cmt.DefaultGenricTrxnCtxImplementation.DefaultGenricTrxnCtxImplementation()
   Level: 1
-  Timestamp: 633.20ms
-  Example: 08:58:28.2 (633195230)|METHOD_ENTRY|[1]|01p5j00000Js5ci|vlocity_cmt.CacheStoreWrapper.CacheStoreWrapper()
+  Timestamp: 1419.64ms
+  Example: 14:04:04.1 (1419638917)|METHOD_ENTRY|[1]|01p5j00000Js5rR|vlocity_cmt.DefaultGenricTrxnCtxImplementation.DefaultGenricTrx
   Solution: Removed from tree, children reparented to nearest closed ancestor or root
 
 Exception #20:
   Description: Missing closing line (METHOD_EXIT)
-  Method: vlocity_cmt.TelcoQuote on Quote trigger event AfterUpdate|__sfdc_trigger/vlocity_cmt/TelcoQuote
+  Method: vlocity_cmt.TransactionContextImplementationBase.TransactionContextImplementationBase()
   Level: 1
-  Timestamp: 764.84ms
-  Example: 08:58:28.2 (764836259)|CODE_UNIT_STARTED|[EXTERNAL]|01q5j000000twpk|vlocity_cmt.TelcoQuote on Quote trigger event AfterU
+  Timestamp: 1419.70ms
+  Example: 14:04:04.1 (1419702971)|METHOD_ENTRY|[1]|01p5j00000Js6Nf|vlocity_cmt.TransactionContextImplementationBase.TransactionCon
   Solution: Removed from tree, children reparented to nearest closed ancestor or root
 
 Exception #21:
   Description: Missing closing line (METHOD_EXIT)
-  Method: vlocity_cmt.DefaultCpqAppHandlerImplementation.DefaultCpqAppHandlerImplementation()
+  Method: vlocity_cmt.DefaultTrxnCtxImplementation.DefaultTrxnCtxImplementation()
   Level: 1
-  Timestamp: 834.62ms
-  Example: 08:58:28.2 (834618829)|METHOD_ENTRY|[1]|01p5j00000Js5qH|vlocity_cmt.DefaultCpqAppHandlerImplementation.DefaultCpqAppHand
+  Timestamp: 1423.78ms
+  Example: 14:04:04.1 (1423779321)|METHOD_ENTRY|[1]|01p5j00000Js5uP|vlocity_cmt.DefaultTrxnCtxImplementation.DefaultTrxnCtxImplemen
   Solution: Removed from tree, children reparented to nearest closed ancestor or root
 
 Exception #22:
   Description: Missing closing line (METHOD_EXIT)
-  Method: vlocity_cmt.LicenseUtility.LicenseUtility()
+  Method: vlocity_cmt.ContextConstants.ContextConstants()
   Level: 1
-  Timestamp: 1085.76ms
-  Example: 08:58:29.3 (1085761795)|METHOD_ENTRY|[1]|01p5j00000Js64T|vlocity_cmt.LicenseUtility.LicenseUtility()
+  Timestamp: 1426.44ms
+  Example: 14:04:04.1 (1426438579)|METHOD_ENTRY|[1]|01p5j00000Js5fk|vlocity_cmt.ContextConstants.ContextConstants()
   Solution: Removed from tree, children reparented to nearest closed ancestor or root
 
 Exception #23:
   Description: Missing closing line (METHOD_EXIT)
-  Method: vlocity_cmt.CpqConstants.CpqConstants()
+  Method: vlocity_cmt.VSObjectSelectorBase.VSObjectSelectorBase()
   Level: 1
-  Timestamp: 1147.40ms
-  Example: 08:58:29.3 (1147401367)|METHOD_ENTRY|[1]|01p5j00000Js5iz|vlocity_cmt.CpqConstants.CpqConstants()
+  Timestamp: 1809.34ms
+  Example: 14:04:04.1 (1809342900)|METHOD_ENTRY|[1]|01p5j00000Js6RM|vlocity_cmt.VSObjectSelectorBase.VSObjectSelectorBase()
   Solution: Removed from tree, children reparented to nearest closed ancestor or root
 
 Exception #24:
   Description: Missing closing line (METHOD_EXIT)
-  Method: vlocity_cmt.CpqExecutorFactory.CpqExecutorFactory()
+  Method: vlocity_cmt.CalcPermissionUtilities.CalcPermissionUtilities()
   Level: 1
-  Timestamp: 1294.76ms
-  Example: 08:58:29.3 (1294757495)|METHOD_ENTRY|[1]|01p5j00000Js5jZ|vlocity_cmt.CpqExecutorFactory.CpqExecutorFactory()
+  Timestamp: 3804.66ms
+  Example: 14:04:06.4 (3804657722)|METHOD_ENTRY|[1]|01p5j00000Js5dD|vlocity_cmt.CalcPermissionUtilities.CalcPermissionUtilities()
   Solution: Removed from tree, children reparented to nearest closed ancestor or root
 
 Exception #25:
   Description: Missing closing line (METHOD_EXIT)
-  Method: vlocity_cmt.CpqCommonExecutor.CpqCommonExecutor()
+  Method: vlocity_cmt.AbstractCallableImpl.AbstractCallableImpl()
   Level: 1
-  Timestamp: 1299.78ms
-  Example: 08:58:29.3 (1299776273)|METHOD_ENTRY|[1]|01p5j00000Js5ie|vlocity_cmt.CpqCommonExecutor.CpqCommonExecutor()
+  Timestamp: 3806.75ms
+  Example: 14:04:06.4 (3806752549)|METHOD_ENTRY|[1]|01p5j00000Js5XV|vlocity_cmt.AbstractCallableImpl.AbstractCallableImpl()
   Solution: Removed from tree, children reparented to nearest closed ancestor or root
 
 Exception #26:
   Description: Missing closing line (METHOD_EXIT)
-  Method: vlocity_cmt.CpqLogger.CpqLogger()
+  Method: vlocity_cmt.CalculationUtilities.CalculationUtilities()
   Level: 1
-  Timestamp: 1303.88ms
-  Example: 08:58:29.3 (1303882028)|METHOD_ENTRY|[1]|01p5j00000Js5kI|vlocity_cmt.CpqLogger.CpqLogger()
+  Timestamp: 3817.41ms
+  Example: 14:04:06.4 (3817406101)|METHOD_ENTRY|[1]|01p5j00000Js5dM|vlocity_cmt.CalculationUtilities.CalculationUtilities()
   Solution: Removed from tree, children reparented to nearest closed ancestor or root
 
 Exception #27:
   Description: Missing closing line (METHOD_EXIT)
-  Method: vlocity_cmt.VSObjectSelectorBase.VSObjectSelectorBase()
+  Method: vlocity_cmt.PricingMatrixManager.PricingMatrixManager()
   Level: 1
-  Timestamp: 1379.90ms
-  Example: 08:58:29.3 (1379900354)|METHOD_ENTRY|[1]|01p5j00000Js6RM|vlocity_cmt.VSObjectSelectorBase.VSObjectSelectorBase()
+  Timestamp: 3821.31ms
+  Example: 14:04:06.4 (3821309155)|METHOD_ENTRY|[1]|01p5j00000Js6EF|vlocity_cmt.PricingMatrixManager.PricingMatrixManager()
   Solution: Removed from tree, children reparented to nearest closed ancestor or root
 
 Exception #28:
   Description: Missing closing line (METHOD_EXIT)
-  Method: vlocity_cmt.VQueryFactory.VQueryFactory()
+  Method: vlocity_cmt.DBHelper.DBHelper()
   Level: 1
-  Timestamp: 1391.50ms
-  Example: 08:58:29.3 (1391498405)|METHOD_ENTRY|[1]|01p5j00000Js6RK|vlocity_cmt.VQueryFactory.VQueryFactory()
+  Timestamp: 5216.70ms
+  Example: 14:04:07.596 (5216703834)|METHOD_ENTRY|[1]|01p5j00000Js5mQ|vlocity_cmt.DBHelper.DBHelper()
   Solution: Removed from tree, children reparented to nearest closed ancestor or root
 
 Exception #29:
   Description: Missing closing line (METHOD_EXIT)
-  Method: vlocity_cmt.ObjectDescriberV2.ObjectDescriberV2()
+  Method: vlocity_cmt.TelcoQuoteLineItemTriggerHandler.TelcoQuoteLineItemTriggerHandler()
   Level: 1
-  Timestamp: 1393.63ms
-  Example: 08:58:29.3 (1393632814)|METHOD_ENTRY|[1]|01p5j00000Js67l|vlocity_cmt.ObjectDescriberV2.ObjectDescriberV2()
+  Timestamp: 7233.96ms
+  Example: 14:04:09.606 (7233956283)|METHOD_ENTRY|[1]|01p5j00000Js6N7|vlocity_cmt.TelcoQuoteLineItemTriggerHandler.TelcoQuoteLineIt
   Solution: Removed from tree, children reparented to nearest closed ancestor or root
 
 Exception #30:
   Description: Missing closing line (METHOD_EXIT)
-  Method: vlocity_cmt.CpqGetSObjectService.CpqGetSObjectService()
+  Method: QuoteLineItemTriggerHandler.QuoteLineItemTriggerHandler()
   Level: 1
-  Timestamp: 1454.02ms
-  Example: 08:58:29.3 (1454016727)|METHOD_ENTRY|[1]|01p5j00000Lfuwf|vlocity_cmt.CpqGetSObjectService.CpqGetSObjectService()
+  Timestamp: 7293.43ms
+  Example: 14:04:10.292 (7293433070)|METHOD_ENTRY|[1]|01pNq0000017mtL|QuoteLineItemTriggerHandler.QuoteLineItemTriggerHandler()
   Solution: Removed from tree, children reparented to nearest closed ancestor or root
 
 Exception #31:
   Description: Missing closing line (METHOD_EXIT)
-  Method: vlocity_cmt.VGenericSelector.VGenericSelector()
-  Level: 1
-  Timestamp: 1458.60ms
-  Example: 08:58:29.3 (1458600831)|METHOD_ENTRY|[1]|01p5j00000Js6R8|vlocity_cmt.VGenericSelector.VGenericSelector()
+  Method: vlocity_cmt.TelcoQuote on Quote trigger event BeforeUpdate|__sfdc_trigger/vlocity_cmt/TelcoQuote
+  Level: 2
+  Timestamp: 725.60ms
+  Example: 14:04:03.0 (725596274)|CODE_UNIT_STARTED|[EXTERNAL]|01q5j000000twpk|vlocity_cmt.TelcoQuote on Quote trigger event Before
   Solution: Removed from tree, children reparented to nearest closed ancestor or root
 
 Exception #32:
   Description: Missing closing line (METHOD_EXIT)
-  Method: V8_CopyBundleAttributes.V8_CopyBundleAttributes()
-  Level: 1
-  Timestamp: 1793.45ms
-  Example: 08:58:29.3 (1793445969)|METHOD_ENTRY|[1]|01pU90000026xKP|V8_CopyBundleAttributes.V8_CopyBundleAttributes()
+  Method: V8_QuoteTrigger on Quote trigger event BeforeUpdate|__sfdc_trigger/V8_QuoteTrigger
+  Level: 2
+  Timestamp: 818.33ms
+  Example: 14:04:03.818 (818334531)|CODE_UNIT_STARTED|[EXTERNAL]|01qNq000000G7Ab|V8_QuoteTrigger on Quote trigger event BeforeUpdat
   Solution: Removed from tree, children reparented to nearest closed ancestor or root
 
 Exception #33:
   Description: Missing closing line (METHOD_EXIT)
-  Method: CustomPricingPlanStepImpl.CustomPricingPlanStepImpl()
-  Level: 1
-  Timestamp: 1860.06ms
-  Example: 08:58:29.3 (1860056325)|METHOD_ENTRY|[1]|01pU9000001i79B|CustomPricingPlanStepImpl.CustomPricingPlanStepImpl()
+  Method: vlocity_cmt.TelcoQuote on Quote trigger event AfterUpdate|__sfdc_trigger/vlocity_cmt/TelcoQuote
+  Level: 2
+  Timestamp: 896.14ms
+  Example: 14:04:03.0 (896139679)|CODE_UNIT_STARTED|[EXTERNAL]|01q5j000000twpk|vlocity_cmt.TelcoQuote on Quote trigger event AfterU
   Solution: Removed from tree, children reparented to nearest closed ancestor or root
 
 Exception #34:
   Description: Missing closing line (METHOD_EXIT)
-  Method: CpqNextPricingPlanHelper.CpqNextPricingPlanHelper()
-  Level: 1
-  Timestamp: 1878.50ms
-  Example: 08:58:29.3 (1878501183)|METHOD_ENTRY|[1]|01pU9000004YJvb|CpqNextPricingPlanHelper.CpqNextPricingPlanHelper()
+  Method: V8_QuoteTrigger on Quote trigger event AfterUpdate|__sfdc_trigger/V8_QuoteTrigger
+  Level: 2
+  Timestamp: 918.50ms
+  Example: 14:04:03.918 (918500906)|CODE_UNIT_STARTED|[EXTERNAL]|01qNq000000G7Ab|V8_QuoteTrigger on Quote trigger event AfterUpdate
   Solution: Removed from tree, children reparented to nearest closed ancestor or root
 
 Exception #35:
   Description: Missing closing line (METHOD_EXIT)
-  Method: PricingPlanHelper.PricingPlanHelper()
-  Level: 1
-  Timestamp: 1878.67ms
-  Example: 08:58:29.3 (1878667245)|METHOD_ENTRY|[1]|01pU9000001i79m|PricingPlanHelper.PricingPlanHelper()
+  Method: vlocity_cmt.TelcoQuoteLineItem on QuoteLineItem trigger event BeforeInsert|__sfdc_trigger/vlocity_cmt/TelcoQuoteLineItem
+  Level: 2
+  Timestamp: 7226.67ms
+  Example: 14:04:09.606 (7226671489)|CODE_UNIT_STARTED|[EXTERNAL]|01q5j000000twpm|vlocity_cmt.TelcoQuoteLineItem on QuoteLineItem t
   Solution: Removed from tree, children reparented to nearest closed ancestor or root
 
 Exception #36:
   Description: Missing closing line (METHOD_EXIT)
-  Method: vlocity_cmt.JSONAttributeSupport.JSONAttributeSupport()
-  Level: 1
-  Timestamp: 1881.76ms
-  Example: 08:58:29.3 (1881757614)|METHOD_ENTRY|[1]|01p5j00000Js63q|vlocity_cmt.JSONAttributeSupport.JSONAttributeSupport()
+  Method: QuoteLineItemTrigger on QuoteLineItem trigger event BeforeInsert|__sfdc_trigger/QuoteLineItemTrigger
+  Level: 2
+  Timestamp: 7292.12ms
+  Example: 14:04:10.292 (7292118517)|CODE_UNIT_STARTED|[EXTERNAL]|01qNq000000G7AT|QuoteLineItemTrigger on QuoteLineItem trigger eve
   Solution: Removed from tree, children reparented to nearest closed ancestor or root
 
 Exception #37:
   Description: Missing closing line (METHOD_EXIT)
-  Method: vlocity_cmt.PricingPlanService.PricingPlanService()
-  Level: 1
-  Timestamp: 1919.29ms
-  Example: 08:58:29.3 (1919286484)|METHOD_ENTRY|[1]|01p5j00000Js6EN|vlocity_cmt.PricingPlanService.PricingPlanService()
+  Method: vlocity_cmt.TelcoQuoteLineItem on QuoteLineItem trigger event AfterInsert|__sfdc_trigger/vlocity_cmt/TelcoQuoteLineItem
+  Level: 2
+  Timestamp: 7512.93ms
+  Example: 14:04:09.606 (7512932935)|CODE_UNIT_STARTED|[EXTERNAL]|01q5j000000twpm|vlocity_cmt.TelcoQuoteLineItem on QuoteLineItem t
   Solution: Removed from tree, children reparented to nearest closed ancestor or root
 
 Exception #38:
   Description: Missing closing line (METHOD_EXIT)
-  Method: MetadataUtils.MetadataUtils()
-  Level: 1
-  Timestamp: 1936.37ms
-  Example: 08:58:29.3 (1936372386)|METHOD_ENTRY|[1]|01pU9000004YJvd|MetadataUtils.MetadataUtils()
+  Method: QuoteLineItemTrigger on QuoteLineItem trigger event AfterInsert|__sfdc_trigger/QuoteLineItemTrigger
+  Level: 2
+  Timestamp: 7537.04ms
+  Example: 14:04:10.537 (7537041208)|CODE_UNIT_STARTED|[EXTERNAL]|01qNq000000G7AT|QuoteLineItemTrigger on QuoteLineItem trigger eve
   Solution: Removed from tree, children reparented to nearest closed ancestor or root
 
 Exception #39:
   Description: Missing closing line (METHOD_EXIT)
-  Method: vlocity_cmt.PricingMatrixCalculationService.PricingMatrixCalculationService()
-  Level: 1
-  Timestamp: 3736.93ms
-  Example: 08:58:31.3 (3736933816)|METHOD_ENTRY|[1]|01p5j00000Js6E4|vlocity_cmt.PricingMatrixCalculationService.PricingMatrixCalcul
+  Method: vlocity_cmt.TelcoQuote on Quote trigger event BeforeUpdate|__sfdc_trigger/vlocity_cmt/TelcoQuote
+  Level: 2
+  Timestamp: 7577.79ms
+  Example: 14:04:09.606 (7577785676)|CODE_UNIT_STARTED|[EXTERNAL]|01q5j000000twpk|vlocity_cmt.TelcoQuote on Quote trigger event Bef
   Solution: Removed from tree, children reparented to nearest closed ancestor or root
 
 Exception #40:
   Description: Missing closing line (METHOD_EXIT)
-  Method: vlocity_cmt.CalcPermissionUtilities.CalcPermissionUtilities()
-  Level: 1
-  Timestamp: 3740.12ms
-  Example: 08:58:31.3 (3740120784)|METHOD_ENTRY|[1]|01p5j00000Js5dD|vlocity_cmt.CalcPermissionUtilities.CalcPermissionUtilities()
+  Method: V8_QuoteTrigger on Quote trigger event BeforeUpdate|__sfdc_trigger/V8_QuoteTrigger
+  Level: 2
+  Timestamp: 7604.66ms
+  Example: 14:04:10.604 (7604658890)|CODE_UNIT_STARTED|[EXTERNAL]|01qNq000000G7Ab|V8_QuoteTrigger on Quote trigger event BeforeUpda
   Solution: Removed from tree, children reparented to nearest closed ancestor or root
 
 Exception #41:
   Description: Missing closing line (METHOD_EXIT)
-  Method: vlocity_cmt.AbstractCallableImpl.AbstractCallableImpl()
-  Level: 1
-  Timestamp: 3742.42ms
-  Example: 08:58:31.3 (3742416371)|METHOD_ENTRY|[1]|01p5j00000Js5XV|vlocity_cmt.AbstractCallableImpl.AbstractCallableImpl()
+  Method: vlocity_cmt.TelcoQuote on Quote trigger event AfterUpdate|__sfdc_trigger/vlocity_cmt/TelcoQuote
+  Level: 2
+  Timestamp: 7645.43ms
+  Example: 14:04:10.625 (7645430675)|CODE_UNIT_STARTED|[EXTERNAL]|01q5j000000twpk|vlocity_cmt.TelcoQuote on Quote trigger event Aft
   Solution: Removed from tree, children reparented to nearest closed ancestor or root
 
 Exception #42:
   Description: Missing closing line (METHOD_EXIT)
-  Method: vlocity_cmt.CalculationUtilities.CalculationUtilities()
-  Level: 1
-  Timestamp: 3747.32ms
-  Example: 08:58:31.3 (3747324229)|METHOD_ENTRY|[1]|01p5j00000Js5dM|vlocity_cmt.CalculationUtilities.CalculationUtilities()
+  Method: V8_QuoteTrigger on Quote trigger event AfterUpdate|__sfdc_trigger/V8_QuoteTrigger
+  Level: 2
+  Timestamp: 7677.39ms
+  Example: 14:04:10.677 (7677391298)|CODE_UNIT_STARTED|[EXTERNAL]|01qNq000000G7Ab|V8_QuoteTrigger on Quote trigger event AfterUpdat
   Solution: Removed from tree, children reparented to nearest closed ancestor or root
 
 Exception #43:
   Description: Missing closing line (METHOD_EXIT)
-  Method: vlocity_cmt.PricingMatrixManager.PricingMatrixManager()
-  Level: 1
-  Timestamp: 3757.20ms
-  Example: 08:58:31.3 (3757198417)|METHOD_ENTRY|[1]|01p5j00000Js6EF|vlocity_cmt.PricingMatrixManager.PricingMatrixManager()
+  Method: vlocity_cmt.DCVersionHelper.DCVersionHelper()
+  Level: 4
+  Timestamp: 1301.49ms
+  Example: 14:04:04.1 (1301492474)|METHOD_ENTRY|[4]|01p5j00000Js5n7|vlocity_cmt.DCVersionHelper.DCVersionHelper()
   Solution: Removed from tree, children reparented to nearest closed ancestor or root
 
 Exception #44:
   Description: Missing closing line (METHOD_EXIT)
-  Method: vlocity_cmt.PricingVariableBindingService.PricingVariableBindingService()
-  Level: 1
-  Timestamp: 3898.78ms
-  Example: 08:58:31.3 (3898783399)|METHOD_ENTRY|[1]|01p5j00000Js6Ep|vlocity_cmt.PricingVariableBindingService.PricingVariableBindin
+  Method: vlocity_cmt.BusinessProcessDisplayController.BusinessProcessDisplayController()
+  Level: 5
+  Timestamp: 5.93ms
+  Example: 14:04:03.0 (5925300)|METHOD_ENTRY|[5]|01p5j00000Js5bs|vlocity_cmt.BusinessProcessDisplayController.BusinessProcessDispla
   Solution: Removed from tree, children reparented to nearest closed ancestor or root
 
 Exception #45:
   Description: Missing closing line (METHOD_EXIT)
-  Method: V8_ApplyAdvancedPricing.V8_ApplyAdvancedPricing()
-  Level: 1
-  Timestamp: 4209.45ms
-  Example: 08:58:32.42 (4209452056)|METHOD_ENTRY|[1]|01pU9000001i8Xo|V8_ApplyAdvancedPricing.V8_ApplyAdvancedPricing()
+  Method: vlocity_cmt.NamespaceUtilities.NamespaceUtilities()
+  Level: 5
+  Timestamp: 44.97ms
+  Example: 14:04:03.0 (44973588)|METHOD_ENTRY|[5]|01p5j00000Js67P|vlocity_cmt.NamespaceUtilities.NamespaceUtilities()
   Solution: Removed from tree, children reparented to nearest closed ancestor or root
 
 Exception #46:
   Description: Missing closing line (METHOD_EXIT)
-  Method: V8_ApplyPricingProcessor.V8_ApplyPricingProcessor()
-  Level: 1
-  Timestamp: 4226.50ms
-  Example: 08:58:32.42 (4226501296)|METHOD_ENTRY|[1]|01pU9000001i8Xs|V8_ApplyPricingProcessor.V8_ApplyPricingProcessor()
+  Method: vlocity_cmt.ApplicationService.ApplicationService()
+  Level: 5
+  Timestamp: 71.67ms
+  Example: 14:04:03.0 (71667403)|METHOD_ENTRY|[5]|01p5j00000Js5YP|vlocity_cmt.ApplicationService.ApplicationService()
   Solution: Removed from tree, children reparented to nearest closed ancestor or root
 
 Exception #47:
   Description: Missing closing line (METHOD_EXIT)
-  Method: vlocity_cmt.TelcoQuoteLineItemTriggerHandler.TelcoQuoteLineItemTriggerHandler()
-  Level: 1
-  Timestamp: 4362.83ms
-  Example: 08:58:32.42 (4362828660)|METHOD_ENTRY|[1]|01p5j00000Js6N7|vlocity_cmt.TelcoQuoteLineItemTriggerHandler.TelcoQuoteLineIte
+  Method: vlocity_cmt.ObjectUtilities.ObjectUtilities()
+  Level: 5
+  Timestamp: 2552.55ms
+  Example: 14:04:05.4 (2552548193)|METHOD_ENTRY|[5]|01p5j00000Js68J|vlocity_cmt.ObjectUtilities.ObjectUtilities()
   Solution: Removed from tree, children reparented to nearest closed ancestor or root
 
 Exception #48:
   Description: Missing closing line (METHOD_EXIT)
-  Method: QuoteLineItemTriggerHandler.QuoteLineItemTriggerHandler()
-  Level: 1
-  Timestamp: 4443.22ms
-  Example: 08:58:32.435 (4443216399)|METHOD_ENTRY|[1]|01pU9000001i79u|QuoteLineItemTriggerHandler.QuoteLineItemTriggerHandler()
+  Method: vlocity_cmt.PlatformOmniStudioUtils.PlatformOmniStudioUtils()
+  Level: 6
+  Timestamp: 41.18ms
+  Example: 14:04:03.0 (41178272)|METHOD_ENTRY|[6]|01p5j00000Js6Ck|vlocity_cmt.PlatformOmniStudioUtils.PlatformOmniStudioUtils()
   Solution: Removed from tree, children reparented to nearest closed ancestor or root
 
 Exception #49:
   Description: Missing closing line (METHOD_EXIT)
-  Method: TriggerHandlerBase.TriggerHandlerBase()
-  Level: 1
-  Timestamp: 4443.39ms
-  Example: 08:58:32.435 (4443390799)|METHOD_ENTRY|[1]|01pU9000001i8Xi|TriggerHandlerBase.TriggerHandlerBase()
+  Method: vlocity_cmt.OrgCacheManager.OrgCacheManager()
+  Level: 6
+  Timestamp: 98.31ms
+  Example: 14:04:03.0 (98309006)|METHOD_ENTRY|[6]|01p5j00000Js6BV|vlocity_cmt.OrgCacheManager.OrgCacheManager()
   Solution: Removed from tree, children reparented to nearest closed ancestor or root
 
 Exception #50:
   Description: Missing closing line (METHOD_EXIT)
-  Method: TriggerFramework.TriggerFramework()
-  Level: 1
-  Timestamp: 4447.27ms
-  Example: 08:58:32.435 (4447271500)|METHOD_ENTRY|[1]|01pU9000001i8Xh|TriggerFramework.TriggerFramework()
+  Method: vlocity_cmt.TelcoTriggerFactory.TelcoTriggerFactory()
+  Level: 6
+  Timestamp: 729.71ms
+  Example: 14:04:03.0 (729714757)|METHOD_ENTRY|[6]|01p5j00000Js6NF|vlocity_cmt.TelcoTriggerFactory.TelcoTriggerFactory()
   Solution: Removed from tree, children reparented to nearest closed ancestor or root
 
 Exception #51:
   Description: Missing closing line (METHOD_EXIT)
-  Method: vlocity_cmt.TelcoQuoteLineItem on QuoteLineItem trigger event BeforeInsert|__sfdc_trigger/vlocity_cmt/TelcoQuoteLineItem
-  Level: 2
-  Timestamp: 4356.38ms
-  Example: 08:58:32.42 (4356376305)|CODE_UNIT_STARTED|[EXTERNAL]|01q5j000000twpm|vlocity_cmt.TelcoQuoteLineItem on QuoteLineItem tr
+  Method: vlocity_cmt.CpqProvisioningStatusUtility.CpqProvisioningStatusUtility()
+  Level: 6
+  Timestamp: 7269.95ms
+  Example: 14:04:09.606 (7269949576)|METHOD_ENTRY|[6]|01p5j00000Js5ke|vlocity_cmt.CpqProvisioningStatusUtility.CpqProvisioningStatu
   Solution: Removed from tree, children reparented to nearest closed ancestor or root
 
 Exception #52:
   Description: Missing closing line (METHOD_EXIT)
-  Method: QuoteLineItemTrigger on QuoteLineItem trigger event BeforeInsert|__sfdc_trigger/QuoteLineItemTrigger
-  Level: 2
-  Timestamp: 4435.79ms
-  Example: 08:58:32.435 (4435794450)|CODE_UNIT_STARTED|[EXTERNAL]|01qU9000000VmoQ|QuoteLineItemTrigger on QuoteLineItem trigger eve
+  Method: vlocity_cmt.CoreAppInput.CoreAppInput()
+  Level: 7
+  Timestamp: 391.52ms
+  Example: 14:04:03.0 (391517043)|METHOD_ENTRY|[7]|01p5j00000Js5hU|vlocity_cmt.CoreAppInput.CoreAppInput()
   Solution: Removed from tree, children reparented to nearest closed ancestor or root
 
 Exception #53:
   Description: Missing closing line (METHOD_EXIT)
-  Method: vlocity_cmt.TelcoQuoteLineItem on QuoteLineItem trigger event AfterInsert|__sfdc_trigger/vlocity_cmt/TelcoQuoteLineItem
-  Level: 2
-  Timestamp: 4649.20ms
-  Example: 08:58:32.42 (4649198361)|CODE_UNIT_STARTED|[EXTERNAL]|01q5j000000twpm|vlocity_cmt.TelcoQuoteLineItem on QuoteLineItem tr
+  Method: vlocity_cmt.V2BaseCartItemService.V2BaseCartItemService()
+  Level: 7
+  Timestamp: 1204.89ms
+  Example: 14:04:04.1 (1204885224)|METHOD_ENTRY|[7]|01p5j00000Js6PN|vlocity_cmt.V2BaseCartItemService.V2BaseCartItemService()
   Solution: Removed from tree, children reparented to nearest closed ancestor or root
 
 Exception #54:
   Description: Missing closing line (METHOD_EXIT)
-  Method: QuoteLineItemTrigger on QuoteLineItem trigger event AfterInsert|__sfdc_trigger/QuoteLineItemTrigger
-  Level: 2
-  Timestamp: 4673.84ms
-  Example: 08:58:32.673 (4673836316)|CODE_UNIT_STARTED|[EXTERNAL]|01qU9000000VmoQ|QuoteLineItemTrigger on QuoteLineItem trigger eve
+  Method: vlocity_cmt.PlatformObjectMappings.PlatformObjectMappings()
+  Level: 8
+  Timestamp: 41.10ms
+  Example: 14:04:03.0 (41097524)|METHOD_ENTRY|[8]|01p5j00000Js6Cj|vlocity_cmt.PlatformObjectMappings.PlatformObjectMappings()
   Solution: Removed from tree, children reparented to nearest closed ancestor or root
 
 Exception #55:
   Description: Missing closing line (METHOD_EXIT)
-  Method: vlocity_cmt.TelcoQuote on Quote trigger event BeforeUpdate|__sfdc_trigger/vlocity_cmt/TelcoQuote
-  Level: 2
-  Timestamp: 4711.53ms
-  Example: 08:58:32.42 (4711527551)|CODE_UNIT_STARTED|[EXTERNAL]|01q5j000000twpk|vlocity_cmt.TelcoQuote on Quote trigger event Befo
+  Method: vlocity_cmt.TelcoQuoteTriggerHandler.TelcoQuoteTriggerHandler()
+  Level: 9
+  Timestamp: 742.10ms
+  Example: 14:04:03.0 (742101181)|METHOD_ENTRY|[9]|01p5j00000Js6N9|vlocity_cmt.TelcoQuoteTriggerHandler.TelcoQuoteTriggerHandler()
   Solution: Removed from tree, children reparented to nearest closed ancestor or root
 
 Exception #56:
   Description: Missing closing line (METHOD_EXIT)
-  Method: vlocity_cmt.TelcoQuote on Quote trigger event AfterUpdate|__sfdc_trigger/vlocity_cmt/TelcoQuote
-  Level: 2
-  Timestamp: 4762.07ms
-  Example: 08:58:32.42 (4762071567)|CODE_UNIT_STARTED|[EXTERNAL]|01q5j000000twpk|vlocity_cmt.TelcoQuote on Quote trigger event Afte
+  Method: vlocity_cmt.CacheableAPIConstants.CacheableAPIConstants()
+  Level: 13
+  Timestamp: 987.83ms
+  Example: 14:04:03.0 (987834907)|METHOD_ENTRY|[13]|01p5j00000Js5cm|vlocity_cmt.CacheableAPIConstants.CacheableAPIConstants()
   Solution: Removed from tree, children reparented to nearest closed ancestor or root
 
 Exception #57:
   Description: Missing closing line (METHOD_EXIT)
-  Method: vlocity_cmt.DCInstrConst.DCInstrConst()
-  Level: 3
-  Timestamp: 151.51ms
-  Example: 08:58:28.2 (151514193)|METHOD_ENTRY|[3]|01p5j00000Lfuwz|vlocity_cmt.DCInstrConst.DCInstrConst()
+  Method: vlocity_cmt.VlocityFeatureService.VlocityFeatureService()
+  Level: 25
+  Timestamp: 730.39ms
+  Example: 14:04:03.0 (730391337)|METHOD_ENTRY|[25]|01p5j00000Js6SH|vlocity_cmt.VlocityFeatureService.VlocityFeatureService()
   Solution: Removed from tree, children reparented to nearest closed ancestor or root
 
 Exception #58:
   Description: Missing closing line (METHOD_EXIT)
-  Method: vlocity_cmt.VlocityTrackingService.VlocityTrackingService()
-  Level: 3
-  Timestamp: 6183.25ms
-  Example: 08:58:34.42 (6183249846)|METHOD_ENTRY|[3]|01p5j00000Js6Sw|vlocity_cmt.VlocityTrackingService.VlocityTrackingService()
+  Method: vlocity_cmt.WorkSetService.WorkSetService()
+  Level: 27
+  Timestamp: 737.20ms
+  Example: 14:04:03.0 (737200833)|METHOD_ENTRY|[27]|01p5j00000Js6TT|vlocity_cmt.WorkSetService.WorkSetService()
   Solution: Removed from tree, children reparented to nearest closed ancestor or root
 
 Exception #59:
   Description: Missing closing line (METHOD_EXIT)
-  Method: vlocity_cmt.DCVersionHelper.DCVersionHelper()
-  Level: 4
-  Timestamp: 124.71ms
-  Example: 08:58:28.2 (124709446)|METHOD_ENTRY|[4]|01p5j00000Js5n7|vlocity_cmt.DCVersionHelper.DCVersionHelper()
+  Method: vlocity_cmt.PlatformSecurityChecker.PlatformSecurityChecker()
+  Level: 28
+  Timestamp: 6.67ms
+  Example: 14:04:03.0 (6666774)|METHOD_ENTRY|[28]|01p5j00000Js6Cl|vlocity_cmt.PlatformSecurityChecker.PlatformSecurityChecker()
   Solution: Removed from tree, children reparented to nearest closed ancestor or root
 
 Exception #60:
   Description: Missing closing line (METHOD_EXIT)
-  Method: vlocity_cmt.InvokeServiceAdapter.InvokeServiceAdapter()
-  Level: 4
-  Timestamp: 135.34ms
-  Example: 08:58:28.2 (135341552)|METHOD_ENTRY|[4]|01p5j00000Js63X|vlocity_cmt.InvokeServiceAdapter.InvokeServiceAdapter()
-  Solution: Removed from tree, children reparented to nearest closed ancestor or root
-
-Exception #61:
-  Description: Missing closing line (METHOD_EXIT)
-  Method: vlocity_cmt.EncryptionUtil.EncryptionUtil()
-  Level: 4
-  Timestamp: 823.12ms
-  Example: 08:58:28.2 (823124092)|METHOD_ENTRY|[4]|01p5j00000Js5z7|vlocity_cmt.EncryptionUtil.EncryptionUtil()
-  Solution: Removed from tree, children reparented to nearest closed ancestor or root
-
-Exception #62:
-  Description: Missing closing line (METHOD_EXIT)
-  Method: vlocity_cmt.CpqUtil.CpqUtil()
-  Level: 4
-  Timestamp: 1232.89ms
-  Example: 08:58:29.3 (1232890925)|METHOD_ENTRY|[4]|01p5j00000Js5l6|vlocity_cmt.CpqUtil.CpqUtil()
-  Solution: Removed from tree, children reparented to nearest closed ancestor or root
-
-Exception #63:
-  Description: Missing closing line (METHOD_EXIT)
-  Method: vlocity_cmt.CPQNext1BAPI.CPQNext1BAPI()
-  Level: 4
-  Timestamp: 1291.89ms
-  Example: 08:58:29.3 (1291885071)|METHOD_ENTRY|[4]|01pNs000000TW6E|vlocity_cmt.CPQNext1BAPI.CPQNext1BAPI()
-  Solution: Removed from tree, children reparented to nearest closed ancestor or root
-
-Exception #64:
-  Description: Missing closing line (METHOD_EXIT)
-  Method: vlocity_cmt.CpqCachedApiResponseSelector.CpqCachedApiResponseSelector()
-  Level: 4
-  Timestamp: 1379.58ms
-  Example: 08:58:29.3 (1379580183)|METHOD_ENTRY|[4]|01p5j00000Js5iH|vlocity_cmt.CpqCachedApiResponseSelector.CpqCachedApiResponseSe
-  Solution: Removed from tree, children reparented to nearest closed ancestor or root
-
-Exception #65:
-  Description: Missing closing line (METHOD_EXIT)
-  Method: vlocity_cmt.NamespaceUtilities.NamespaceUtilities()
-  Level: 5
-  Timestamp: 8.08ms
-  Example: 08:58:28.2 (8082133)|METHOD_ENTRY|[5]|01p5j00000Js67P|vlocity_cmt.NamespaceUtilities.NamespaceUtilities()
-  Solution: Removed from tree, children reparented to nearest closed ancestor or root
-
-Exception #66:
-  Description: Missing closing line (METHOD_EXIT)
-  Method: vlocity_cmt.OpenInterfaceSharingWrapper.OpenInterfaceSharingWrapper()
-  Level: 5
-  Timestamp: 138.10ms
-  Example: 08:58:28.2 (138104967)|METHOD_ENTRY|[5]|01p5j00000Js6AP|vlocity_cmt.OpenInterfaceSharingWrapper.OpenInterfaceSharingWrap
-  Solution: Removed from tree, children reparented to nearest closed ancestor or root
-
-Exception #67:
-  Description: Missing closing line (METHOD_EXIT)
-  Method: vCpqService.vCpqService()
-  Level: 5
-  Timestamp: 238.66ms
-  Example: 08:58:28.2 (238663685)|METHOD_ENTRY|[5]|01pU9000002miDk|vCpqService.vCpqService()
-  Solution: Removed from tree, children reparented to nearest closed ancestor or root
-
-Exception #68:
-  Description: Missing closing line (METHOD_EXIT)
-  Method: vLogger.vLogger()
-  Level: 5
-  Timestamp: 240.91ms
-  Example: 08:58:28.2 (240912821)|METHOD_ENTRY|[5]|01pU9000002miDo|vLogger.vLogger()
-  Solution: Removed from tree, children reparented to nearest closed ancestor or root
-
-Exception #69:
-  Description: Missing closing line (METHOD_EXIT)
-  Method: vlocity_cmt.CpqApexCallable.CpqApexCallable()
-  Level: 5
-  Timestamp: 1370.64ms
-  Example: 08:58:29.3 (1370640007)|METHOD_ENTRY|[5]|01p5j00000Lfuw0|vlocity_cmt.CpqApexCallable.CpqApexCallable()
-  Solution: Removed from tree, children reparented to nearest closed ancestor or root
-
-Exception #70:
-  Description: Missing closing line (METHOD_EXIT)
-  Method: vlocity_cmt.PlatformOmniStudioUtils.PlatformOmniStudioUtils()
-  Level: 6
-  Timestamp: 9.26ms
-  Example: 08:58:28.2 (9257837)|METHOD_ENTRY|[6]|01p5j00000Js6Ck|vlocity_cmt.PlatformOmniStudioUtils.PlatformOmniStudioUtils()
-  Solution: Removed from tree, children reparented to nearest closed ancestor or root
-
-Exception #71:
-  Description: Missing closing line (METHOD_EXIT)
-  Method: vlocity_cmt.DCInstrumentationLogger.DCInstrumentationLogger()
-  Level: 6
-  Timestamp: 146.34ms
-  Example: 08:58:28.2 (146343569)|METHOD_ENTRY|[6]|01p5j00000Lfux1|vlocity_cmt.DCInstrumentationLogger.DCInstrumentationLogger()
-  Solution: Removed from tree, children reparented to nearest closed ancestor or root
-
-Exception #72:
-  Description: Missing closing line (METHOD_EXIT)
-  Method: vlocity_cmt.TelcoTriggerFactory.TelcoTriggerFactory()
-  Level: 6
-  Timestamp: 603.74ms
-  Example: 08:58:28.2 (603744228)|METHOD_ENTRY|[6]|01p5j00000Js6NF|vlocity_cmt.TelcoTriggerFactory.TelcoTriggerFactory()
-  Solution: Removed from tree, children reparented to nearest closed ancestor or root
-
-Exception #73:
-  Description: Missing closing line (METHOD_EXIT)
-  Method: vlocity_cmt.CpqCartDocumentUtils.CpqCartDocumentUtils()
-  Level: 6
-  Timestamp: 1729.03ms
-  Example: 08:58:29.3 (1729032078)|METHOD_ENTRY|[6]|01p5j00000Js5iV|vlocity_cmt.CpqCartDocumentUtils.CpqCartDocumentUtils()
-  Solution: Removed from tree, children reparented to nearest closed ancestor or root
-
-Exception #74:
-  Description: Missing closing line (METHOD_EXIT)
-  Method: vlocity_cmt.DMLService.DMLService()
-  Level: 6
-  Timestamp: 4281.88ms
-  Example: 08:58:32.42 (4281882616)|METHOD_ENTRY|[6]|01p5j00000K5AU4|vlocity_cmt.DMLService.DMLService()
-  Solution: Removed from tree, children reparented to nearest closed ancestor or root
-
-Exception #75:
-  Description: Missing closing line (METHOD_EXIT)
-  Method: vlocity_cmt.CpqProvisioningStatusUtility.CpqProvisioningStatusUtility()
-  Level: 6
-  Timestamp: 4409.77ms
-  Example: 08:58:32.42 (4409771128)|METHOD_ENTRY|[6]|01p5j00000Js5ke|vlocity_cmt.CpqProvisioningStatusUtility.CpqProvisioningStatus
-  Solution: Removed from tree, children reparented to nearest closed ancestor or root
-
-Exception #76:
-  Description: Missing closing line (METHOD_EXIT)
-  Method: vlocity_cmt.JSONField.JSONField()
-  Level: 6
-  Timestamp: 4991.36ms
-  Example: 08:58:32.42 (4991361055)|METHOD_ENTRY|[6]|01p5j00000Js63x|vlocity_cmt.JSONField.JSONField()
-  Solution: Removed from tree, children reparented to nearest closed ancestor or root
-
-Exception #77:
-  Description: Missing closing line (METHOD_EXIT)
-  Method: vlocity_cmt.JSONRule.JSONRule()
-  Level: 6
-  Timestamp: 5228.58ms
-  Example: 08:58:33.42 (5228576289)|METHOD_ENTRY|[6]|01p5j00000Js645|vlocity_cmt.JSONRule.JSONRule()
-  Solution: Removed from tree, children reparented to nearest closed ancestor or root
-
-Exception #78:
-  Description: Missing closing line (METHOD_EXIT)
-  Method: vlocity_cmt.CoreAppInput.CoreAppInput()
-  Level: 7
-  Timestamp: 108.89ms
-  Example: 08:58:28.2 (108886445)|METHOD_ENTRY|[7]|01p5j00000Js5hU|vlocity_cmt.CoreAppInput.CoreAppInput()
-  Solution: Removed from tree, children reparented to nearest closed ancestor or root
-
-Exception #79:
-  Description: Missing closing line (METHOD_EXIT)
-  Method: vlocity_cmt.V2Constants.V2Constants()
-  Level: 7
-  Timestamp: 1109.49ms
-  Example: 08:58:29.3 (1109488569)|METHOD_ENTRY|[7]|01p5j00000Js6PX|vlocity_cmt.V2Constants.V2Constants()
-  Solution: Removed from tree, children reparented to nearest closed ancestor or root
-
-Exception #80:
-  Description: Missing closing line (METHOD_EXIT)
-  Method: vlocity_cmt.CustomSettingService.CustomSettingService()
-  Level: 7
-  Timestamp: 1271.06ms
-  Example: 08:58:29.3 (1271056359)|METHOD_ENTRY|[7]|01p5j00000Js5mJ|vlocity_cmt.CustomSettingService.CustomSettingService()
-  Solution: Removed from tree, children reparented to nearest closed ancestor or root
-
-Exception #81:
-  Description: Missing closing line (METHOD_EXIT)
-  Method: vlocity_cmt.CpqCartDocument.CpqCartDocument()
-  Level: 7
-  Timestamp: 1716.73ms
-  Example: 08:58:29.3 (1716727805)|METHOD_ENTRY|[7]|01p5j00000Js5iR|vlocity_cmt.CpqCartDocument.CpqCartDocument()
-  Solution: Removed from tree, children reparented to nearest closed ancestor or root
-
-Exception #82:
-  Description: Missing closing line (METHOD_EXIT)
-  Method: vlocity_cmt.CpqCartDocumentItem.CpqCartDocumentItem()
-  Level: 7
-  Timestamp: 1765.94ms
-  Example: 08:58:29.3 (1765941451)|METHOD_ENTRY|[7]|01p5j00000Js5iS|vlocity_cmt.CpqCartDocumentItem.CpqCartDocumentItem()
-  Solution: Removed from tree, children reparented to nearest closed ancestor or root
-
-Exception #83:
-  Description: Missing closing line (METHOD_EXIT)
-  Method: vlocity_cmt.PlatformObjectMappings.PlatformObjectMappings()
-  Level: 8
-  Timestamp: 9.18ms
-  Example: 08:58:28.2 (9181466)|METHOD_ENTRY|[8]|01p5j00000Js6Cj|vlocity_cmt.PlatformObjectMappings.PlatformObjectMappings()
-  Solution: Removed from tree, children reparented to nearest closed ancestor or root
-
-Exception #84:
-  Description: Missing closing line (METHOD_EXIT)
-  Method: CpqAppHandlerHookImplementation.CpqAppHandlerHookImplementation()
-  Level: 9
-  Timestamp: 229.55ms
-  Example: 08:58:28.2 (229552003)|METHOD_ENTRY|[9]|01pU9000001i794|CpqAppHandlerHookImplementation.CpqAppHandlerHookImplementation(
-  Solution: Removed from tree, children reparented to nearest closed ancestor or root
-
-Exception #85:
-  Description: Missing closing line (METHOD_EXIT)
-  Method: vlocity_cmt.TelcoQuoteTriggerHandler.TelcoQuoteTriggerHandler()
-  Level: 9
-  Timestamp: 614.36ms
-  Example: 08:58:28.2 (614358511)|METHOD_ENTRY|[9]|01p5j00000Js6N9|vlocity_cmt.TelcoQuoteTriggerHandler.TelcoQuoteTriggerHandler()
-  Solution: Removed from tree, children reparented to nearest closed ancestor or root
-
-Exception #86:
-  Description: Missing closing line (METHOD_EXIT)
-  Method: vlocity_cmt.DefaultGenerateGlobalKeyImplementation.DefaultGenerateGlobalKeyImplementation()
-  Level: 10
-  Timestamp: 4367.24ms
-  Example: 08:58:32.42 (4367239083)|METHOD_ENTRY|[10]|01p5j00000Js5rP|vlocity_cmt.DefaultGenerateGlobalKeyImplementation.DefaultGen
-  Solution: Removed from tree, children reparented to nearest closed ancestor or root
-
-Exception #87:
-  Description: Missing closing line (METHOD_EXIT)
-  Method: vlocity_cmt.APIItemsCartsCpqV2.APIItemsCartsCpqV2()
-  Level: 11
-  Timestamp: 5.69ms
-  Example: 08:58:28.2 (5690009)|METHOD_ENTRY|[11]|01p5j00000Js5WI|vlocity_cmt.APIItemsCartsCpqV2.APIItemsCartsCpqV2()
-  Solution: Removed from tree, children reparented to nearest closed ancestor or root
-
-Exception #88:
-  Description: Missing closing line (METHOD_EXIT)
-  Method: vlocity_cmt.JSONUtilities.JSONUtilities()
-  Level: 11
-  Timestamp: 4969.44ms
-  Example: 08:58:32.42 (4969443930)|METHOD_ENTRY|[11]|01p5j00000Js646|vlocity_cmt.JSONUtilities.JSONUtilities()
-  Solution: Removed from tree, children reparented to nearest closed ancestor or root
-
-Exception #89:
-  Description: Missing closing line (METHOD_EXIT)
-  Method: vlocity_cmt.CacheableAPIConstants.CacheableAPIConstants()
-  Level: 13
-  Timestamp: 93.87ms
-  Example: 08:58:28.2 (93868278)|METHOD_ENTRY|[13]|01p5j00000Js5cm|vlocity_cmt.CacheableAPIConstants.CacheableAPIConstants()
-  Solution: Removed from tree, children reparented to nearest closed ancestor or root
-
-Exception #90:
-  Description: Missing closing line (METHOD_EXIT)
-  Method: vlocity_cmt.CpqAppHandler.CpqAppHandler()
-  Level: 13
-  Timestamp: 194.78ms
-  Example: 08:58:28.2 (194779265)|METHOD_ENTRY|[13]|01p5j00000Js5hm|vlocity_cmt.CpqAppHandler.CpqAppHandler()
-  Solution: Removed from tree, children reparented to nearest closed ancestor or root
-
-Exception #91:
-  Description: Missing closing line (METHOD_EXIT)
-  Method: vlocity_cmt.InvokeService.InvokeService()
-  Level: 14
-  Timestamp: 155.84ms
-  Example: 08:58:28.2 (155844535)|METHOD_ENTRY|[14]|01p5j00000Js63W|vlocity_cmt.InvokeService.InvokeService()
-  Solution: Removed from tree, children reparented to nearest closed ancestor or root
-
-Exception #92:
-  Description: Missing closing line (METHOD_EXIT)
-  Method: vlocity_cmt.JSONMessage.JSONMessage()
-  Level: 16
-  Timestamp: 4974.21ms
-  Example: 08:58:32.42 (4974214487)|METHOD_ENTRY|[16]|01p5j00000Js63y|vlocity_cmt.JSONMessage.JSONMessage()
-  Solution: Removed from tree, children reparented to nearest closed ancestor or root
-
-Exception #93:
-  Description: Missing closing line (METHOD_EXIT)
-  Method: vlocity_cmt.JSONData.JSONData()
-  Level: 17
-  Timestamp: 4973.32ms
-  Example: 08:58:32.42 (4973320283)|METHOD_ENTRY|[17]|01p5j00000Js63v|vlocity_cmt.JSONData.JSONData()
-  Solution: Removed from tree, children reparented to nearest closed ancestor or root
-
-Exception #94:
-  Description: Missing closing line (METHOD_EXIT)
-  Method: vlocity_cmt.JSONResult.JSONResult()
-  Level: 22
-  Timestamp: 4960.72ms
-  Example: 08:58:32.42 (4960724688)|METHOD_ENTRY|[22]|01p5j00000Js641|vlocity_cmt.JSONResult.JSONResult()
-  Solution: Removed from tree, children reparented to nearest closed ancestor or root
-
-Exception #95:
-  Description: Missing closing line (METHOD_EXIT)
-  Method: vlocity_cmt.VlocityFeatureService.VlocityFeatureService()
-  Level: 25
-  Timestamp: 125.29ms
-  Example: 08:58:28.2 (125290477)|METHOD_ENTRY|[25]|01p5j00000Js6SH|vlocity_cmt.VlocityFeatureService.VlocityFeatureService()
-  Solution: Removed from tree, children reparented to nearest closed ancestor or root
-
-Exception #96:
-  Description: Missing closing line (METHOD_EXIT)
-  Method: vlocity_cmt.JSONActionCreator.JSONActionCreator()
-  Level: 25
-  Timestamp: 212.24ms
-  Example: 08:58:28.2 (212238104)|METHOD_ENTRY|[25]|01p5j00000Js63m|vlocity_cmt.JSONActionCreator.JSONActionCreator()
-  Solution: Removed from tree, children reparented to nearest closed ancestor or root
-
-Exception #97:
-  Description: Missing closing line (METHOD_EXIT)
-  Method: vlocity_cmt.DCAPIConstants.DCAPIConstants()
-  Level: 26
-  Timestamp: 1093.33ms
-  Example: 08:58:29.3 (1093325275)|METHOD_ENTRY|[26]|01p5j00000Js5mS|vlocity_cmt.DCAPIConstants.DCAPIConstants()
-  Solution: Removed from tree, children reparented to nearest closed ancestor or root
-
-Exception #98:
-  Description: Missing closing line (METHOD_EXIT)
-  Method: vlocity_cmt.ECommAPIUtility.ECommAPIUtility()
-  Level: 27
-  Timestamp: 57.50ms
-  Example: 08:58:28.2 (57499631)|METHOD_ENTRY|[27]|01p5j00000Js5wN|vlocity_cmt.ECommAPIUtility.ECommAPIUtility()
-  Solution: Removed from tree, children reparented to nearest closed ancestor or root
-
-Exception #99:
-  Description: Missing closing line (METHOD_EXIT)
-  Method: vlocity_cmt.WorkSetService.WorkSetService()
-  Level: 27
-  Timestamp: 604.47ms
-  Example: 08:58:28.2 (604473200)|METHOD_ENTRY|[27]|01p5j00000Js6TT|vlocity_cmt.WorkSetService.WorkSetService()
-  Solution: Removed from tree, children reparented to nearest closed ancestor or root
-
-Exception #100:
-  Description: Missing closing line (METHOD_EXIT)
-  Method: vlocity_cmt.PlatformSecurityChecker.PlatformSecurityChecker()
-  Level: 28
-  Timestamp: 156.24ms
-  Example: 08:58:28.2 (156235843)|METHOD_ENTRY|[28]|01p5j00000Js6Cl|vlocity_cmt.PlatformSecurityChecker.PlatformSecurityChecker()
-  Solution: Removed from tree, children reparented to nearest closed ancestor or root
-
-Exception #101:
-  Description: Missing closing line (METHOD_EXIT)
-  Method: vlocity_cmt.CpqAppHandlerHookImplementation.CpqAppHandlerHookImplementation()
-  Level: 30
-  Timestamp: 220.86ms
-  Example: 08:58:28.2 (220857728)|METHOD_ENTRY|[30]|01p5j00000Js5hq|vlocity_cmt.CpqAppHandlerHookImplementation.CpqAppHandlerHookIm
-  Solution: Removed from tree, children reparented to nearest closed ancestor or root
-
-Exception #102:
-  Description: Missing closing line (METHOD_EXIT)
   Method: vlocity_cmt.PredictiveObjectStore.PredictiveObjectStore()
   Level: 41
-  Timestamp: 601.96ms
-  Example: 08:58:28.2 (601963929)|METHOD_ENTRY|[41]|01p5j00000Js6DG|vlocity_cmt.PredictiveObjectStore.PredictiveObjectStore()
-  Solution: Removed from tree, children reparented to nearest closed ancestor or root
-
-Exception #103:
-  Description: Missing closing line (METHOD_EXIT)
-  Method: vlocity_cmt.JSONAction.JSONAction()
-  Level: 43
-  Timestamp: 4976.44ms
-  Example: 08:58:32.42 (4976439010)|METHOD_ENTRY|[43]|01p5j00000Js63l|vlocity_cmt.JSONAction.JSONAction()
-  Solution: Removed from tree, children reparented to nearest closed ancestor or root
-
-Exception #104:
-  Description: Missing closing line (METHOD_EXIT)
-  Method: vlocity_cmt.JSONRecord.JSONRecord()
-  Level: 44
-  Timestamp: 4978.85ms
-  Example: 08:58:32.42 (4978852145)|METHOD_ENTRY|[44]|01p5j00000Js640|vlocity_cmt.JSONRecord.JSONRecord()
-  Solution: Removed from tree, children reparented to nearest closed ancestor or root
-
-Exception #105:
-  Description: Missing closing line (METHOD_EXIT)
-  Method: vlocity_cmt.JSONAttribute.JSONAttribute()
-  Level: 47
-  Timestamp: 5221.23ms
-  Example: 08:58:33.42 (5221230846)|METHOD_ENTRY|[47]|01p5j00000Js63p|vlocity_cmt.JSONAttribute.JSONAttribute()
+  Timestamp: 727.80ms
+  Example: 14:04:03.0 (727803291)|METHOD_ENTRY|[41]|01p5j00000Js6DG|vlocity_cmt.PredictiveObjectStore.PredictiveObjectStore()
   Solution: Removed from tree, children reparented to nearest closed ancestor or root
 
 
-Total exceptions: 105
+Total exceptions: 60

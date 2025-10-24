@@ -182,10 +182,14 @@ class ChartGenerator:
         critical_ids = {call.call_id for call in critical_path}
         
         # Filter methods: >= 100ms OR leaf methods OR critical path
-        def is_system_method(name):
-            return name.startswith('System.')
+        def is_filtered_method(name):
+            """Check if method should be filtered out (hidden)"""
+            return name.startswith('System.') or 'vlocity_cmt' in name
         
         def should_include(row):
+            # First check if method should be filtered out
+            if is_filtered_method(row['method_name']):
+                return False
             if row['call_id'] in critical_ids:
                 return True
             if row['duration'] >= 100:
@@ -376,24 +380,24 @@ class ChartGenerator:
                 return name[:max_len-3] + "..."
             return name
         
-        def is_system_method(method_name):
-            """Check if method is a system method"""
-            return method_name.startswith('System.')
+        def is_filtered_method(method_name):
+            """Check if method should be filtered out (hidden)"""
+            return method_name.startswith('System.') or 'vlocity_cmt' in method_name
         
         def should_include_method(call):
             """
             Filter methods: include if:
             - Duration >= 100ms, OR
-            - It's a leaf method (no non-system children), OR  
+            - It's a leaf method (no non-filtered children), OR  
             - It's on the critical path
             """
             if call.call_id in critical_ids:
                 return True
             if call.duration >= 100:
                 return True
-            # Check if it's a leaf (no non-system children)
-            non_system_children = [c for c in call.children if not is_system_method(c.method_name)]
-            return len(non_system_children) == 0
+            # Check if it's a leaf (no non-filtered children)
+            non_filtered_children = [c for c in call.children if not is_filtered_method(c.method_name)]
+            return len(non_filtered_children) == 0
         
         def build_tree_text(call, indent=0, is_last=False, max_depth=15):
             """Recursively build tree text with filtering"""
