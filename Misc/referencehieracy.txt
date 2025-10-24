@@ -1,0 +1,98 @@
+
+[6,778.438ms] 
+vlocity_cmt.APIItemsCartsCpqV2.createCartItems()@4 (time in children: 6,673ms)
+
+
+
+[6,564.518ms] 
+vlocity_cmt.OpenInterfaceSharingWrapper.callOpenInterface2WithAppropriateSharing(vlocity_cmt.VlocityOpenInte
+
+
+
+[6,550.989ms] 
+vlocity_cmt.OpenInterfaceSharingWrapper.OpenInterfaceWithSharingWrapper.callOpenInterface2(vlocity_cmt.Vloci
+
+
+
+[6,550.873ms] 
+vlocity_cmt.InvokeServiceAdapter.invokeMethod(String, Map<String,ANY>, Map<String,ANY>, Map<String,ANY>)@
+
+
+[6,546.858ms] 
+vlocity_cmt.InvokeService.invoke(String, String, Map<String,ANY>, Map<String,ANY>)@250 (time in child
+
+
+[6,546.681ms] 
+vlocity_cmt.InvokeService.invokeAsMap(String, String, Map<String,ANY>, Map<String,ANY>)@251 (time in
+
+
+
+[5,376.391ms] 
+vlocity_cmt.CpqAppHandler.invokeMethod(String, Map<String,ANY>, Map<String,ANY>, Map<String,ANY>)@852
+
+
+[5,357.287ms] 
+vlocity_cmt.CustomSettingsUtilities.invokeOpenImplementation(String, String, Map<String,ANY>, Map<String,ANY
+
+
+[5,099.968ms] 
+vlocity_cmt.DefaultCpqAppHandlerImplementation.invokeMethod(String, Map<String,ANY>, Map<String,ANY>, Map<St
+
+
+
+[3,653.146ms] 
+vlocity_cmt.CpqCommonExecutor.processInCore(String, Map<String,ANY>)@1007 (time in children: 3,652ms)
+
+
+
+[3,652.219ms] 
+vlocity_cmt.CPQServicePtc.processInCore(String, Map<String,ANY>, Map<String,ANY>)@1016 (time in child
+
+
+[2,064.569ms] 
+vlocity_cmt.CpqApexCallable@8680 (time in children: 2063ms)
+
+
+[2,058.594ms] 
+CustomPricingPlanStepImpl.invokeMethod(String, Map<String,ANY>, Map<String,ANY>, Map<String,ANY>)@8844,,
+
+
+
+[2,058.506ms] 
+CustomPricingPlanStepImpl.getMatrixPrice(Map<String,ANY>, Map<String,ANY>, Map<String,ANY>)@8860 (ti
+
+
+
+[2,036.453ms] 
+PricingPlanHelper.invokeMethod(String, Map<String,ANY>, Map<String,ANY>, Map<String,ANY>)@9122 (time
+
+
+
+[1,844.332ms] 
+PricingPlanHelper.getCalculationProcedurePrice(Map<String,ANY>, Map<String,ANY>, Map<String,ANY>)@43577,
+
+
+
+
+[1,641.146ms] 
+PricingPlanHelper.getMatrixRow(Map<String,ANY>, Map<String,ANY>, Map<String,ANY>)@43629 (time in chi
+
+
+
+[1,508.367ms] 
+PricingPlanHelper.getMatrixProductCodeMapping(Map<String,ANY>, Map<String,ANY>, Map<String,ANY>)@43676,,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

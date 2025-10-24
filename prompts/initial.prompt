@@ -1,0 +1,15 @@
+create a project as a desktop app in python, what it does is:
+1. analyze a log file, which is a txt file
+2. the log file is to capture performance test for salesforce industries CPQ Quting process for a specific implementation
+3. each line of the log will have timestamp in linux format with milliseconds precision
+4. for each executed and logged method, there will be a line for entering and another line for exiting
+5. there will be nested similar lines for child methods to many levels deep
+6. the app should be able to extract the data from the log file and display it in a chart
+7. the chart should be able to show the time taken for each method to execute
+8. critical path of execution for the whole quote process should be highlighted in the chart
+9. the source code should be in its own folder with name source
+10. utilize most related libraries and frameworks to build the app like pandas, matplotlib, seaborn, etc.
+11. the app should be able to run on macos
+12. the app should be able to run on python 3.10 or higher
+13. for now it will be a local desktop app, later it will be a web app supporting nextjs framework in javascripts
+

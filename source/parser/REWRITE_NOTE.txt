@@ -1,0 +1,13 @@
+The current parsing logic is fundamentally broken because:
+
+1. Parent IDs are assigned using a stack that contains unclosed methods
+2. Even with reparenting, the corruption spreads to closed methods
+3. Result: 20+ methods with children duration > parent duration (impossible!)
+
+SOLUTION:
+Rewrite _build_call_tree() with clean two-pass algorithm:
+- Pass 1: Match ENTRY/EXIT pairs only (ignore unclosed)
+- Pass 2: Assign parents based on time containment + level, not stack
+
+This ensures NO unclosed methods pollute the parent assignments.
+
