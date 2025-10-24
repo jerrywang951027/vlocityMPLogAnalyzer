@@ -171,11 +171,11 @@ class PerfLogAnalyzerApp:
         control_frame = ttk.Frame(self.tab_duration)
         control_frame.pack(fill=tk.X, padx=5, pady=5)
         
-        # Checkbox for filtering
-        self.hide_vlocity_methods = tk.BooleanVar(value=False)
+        # Checkbox for filtering framework methods
+        self.hide_framework_methods = tk.BooleanVar(value=False)
         ttk.Checkbutton(control_frame, 
-                       text="Hide vlocity_cmt methods",
-                       variable=self.hide_vlocity_methods,
+                       text="Hide framework methods (vlocity_cmt, System.*)",
+                       variable=self.hide_framework_methods,
                        command=self._refresh_duration_chart).pack(side=tk.LEFT, padx=5)
         
         # Content frame for the chart
@@ -405,11 +405,15 @@ class PerfLogAnalyzerApp:
             widget.destroy()
         
         # Get filter setting and apply it
-        hide_vlocity = self.hide_vlocity_methods.get()
+        hide_framework = self.hide_framework_methods.get()
         
         # Filter dataframe if needed
-        if hide_vlocity:
-            filtered_df = self.df[~self.df['method_name'].str.startswith('vlocity_cmt')]
+        if hide_framework:
+            # Filter out methods containing 'vlocity_cmt' or starting with 'System.'
+            filtered_df = self.df[
+                ~(self.df['method_name'].str.contains('vlocity_cmt', na=False) | 
+                  self.df['method_name'].str.startswith('System.'))
+            ]
             # Create a temporary chart generator with filtered data
             from visualization.chart_generator import ChartGenerator
             temp_generator = ChartGenerator(filtered_df, self.parser)
