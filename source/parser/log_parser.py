@@ -284,37 +284,50 @@ class LogParser:
                     # Track for reparenting
                     unclosed_parent_map[call_id] = method_call.parent_id
         
-        # Now assign parents using PURE TIME CONTAINMENT (ignore inconsistent level numbers!)
-        # Strategy: For each method, find the most recent (closest) method that fully contains it
+        # Now assign parents using OPTIMIZED TIME CONTAINMENT with stack-based algorithm
+        # Complexity: O(N log N) instead of O(N²)
+        # Strategy: Maintain a stack of active (not yet ended) calls
         sorted_calls = sorted(self.method_calls, key=lambda x: x.start_time)
         call_map = {c.call_id: c for c in sorted_calls}
         
         # Find level-0 root (CODE_UNIT)
         level_0_root = next((c for c in sorted_calls if c.level == 0), None)
         
-        for i, call in enumerate(sorted_calls):
+        # Stack-based parent assignment - O(N log N)
+        # Stack contains currently active calls (started but not yet ended)
+        active_stack = []
+        
+        for call in sorted_calls:
             if call.level == 0:
                 call.parent_id = None
+                active_stack.append(call)
                 continue
-                
-            # Find parent: most recent method that FULLY contains this call (start before, end after)
-            # Ignore level numbers - they're inconsistent in the logs!
+            
+            # Remove calls from stack that have ended before this call starts
+            # These can no longer be parents of future calls
+            while active_stack and active_stack[-1].end_time <= call.start_time:
+                active_stack.pop()
+            
+            # Find parent: the most recent active call that fully contains this call
+            # Search from the end of the stack (most recent) backwards
             best_parent = None
-            for j in range(i - 1, -1, -1):
-                candidate = sorted_calls[j]
-                # Parent must START before this call and END after this call (full containment)
+            for i in range(len(active_stack) - 1, -1, -1):
+                candidate = active_stack[i]
+                # Parent must fully contain this call (start before or at, end after or at)
                 if (candidate.start_time <= call.start_time and
                     call.end_time <= candidate.end_time and
                     candidate.call_id != call.call_id):
-                    # Take the most recent (closest) parent
                     best_parent = candidate
-                    break  # Found the immediate parent, stop searching
+                    break  # Found the immediate parent (most recent that contains this call)
             
             # If no parent found and we have a level-0 root, attach to it
             if best_parent is None and level_0_root and level_0_root.start_time <= call.start_time < level_0_root.end_time:
                 best_parent = level_0_root
             
             call.parent_id = best_parent.call_id if best_parent else None
+            
+            # Add this call to the active stack
+            active_stack.append(call)
         
         # Build parent-child relationships
         self._build_relationships()
